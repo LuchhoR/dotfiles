@@ -119,7 +119,7 @@
   },
   "clock": {
     "format": " {:%H:%M %d/%m/%Y}",
-    "format-alt": "{:L%d %B W%V %Y}",
+    "format-alt": "{:L%d %B %Y}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "mouth",
@@ -229,7 +229,7 @@
    "mpris": {
     "format": "󰋎 {title}",
     "format-paused": "<i><span color='grey'>{status_icon} {artist}</span></i>",
-    "max-length": 20,
+    "max-length": 40,
     "player-icons": {
       "default": "⏸",
       "mpv": "🎵"
